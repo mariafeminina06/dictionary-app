@@ -1,3 +1,4 @@
+import axios from "axios";
 import React, { useState } from "react";
 
 import "./Dictionary.css";
@@ -5,12 +6,18 @@ import "./Dictionary.css";
 export default function Dictionary() {
   let [query, setQuery] = useState(null);
 
-  function search(event) {
-    event.preventDefault();
-    alert(`Searching for the definition of ${query}`);
+  function handleSearch(response) {
+    console.log(response.data[0]);
   }
 
-  function handleQuery(event) {
+  function search(event) {
+    event.preventDefault();
+
+    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${query}`;
+    axios.get(apiUrl).then(handleSearch);
+  }
+
+  function updateQuery(event) {
     setQuery(event.target.value);
   }
 
@@ -21,7 +28,7 @@ export default function Dictionary() {
           <input
             type="search"
             autoFocus={true}
-            onChange={handleQuery}
+            onChange={updateQuery}
             className="form-control"
             placeholder="Enter word to locate meaning"
           />
