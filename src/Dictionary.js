@@ -33,7 +33,7 @@ export default function Dictionary() {
             placeholder="Enter word to locate meaning"
           />
           <button
-            class="btn btn-outline-secondary"
+            className="btn btn-outline-secondary"
             type="button"
             id="button-addon2"
           >
