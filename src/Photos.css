@@ -1,0 +1,23 @@
+.Photos {
+  background: hsl(201, 31%, 12%);
+  width: 1000px;
+  display: block;
+  margin: 50px auto;
+  padding: 30px;
+  color: hsl(17, 88%, 68%);
+  background-image: linear-gradient(
+    60deg,
+    hsl(202, 31%, 8%),
+    hsl(202, 31%, 4%)
+  );
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0.5px);
+  -webkit-backdrop-filter: blur(0.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.Photos img {
+  border-radius: 4px;
+  margin: 30px 1px;
+}
