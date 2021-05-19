@@ -1,7 +1,7 @@
 import logo from "./jishologo.jpg";
-import "./App.css";
 import Dictionary from "./Dictionary";
 import Footer from "./Footer";
+import "./App.css";
 
 function App() {
   return (

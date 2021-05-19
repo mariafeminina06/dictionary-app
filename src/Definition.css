@@ -1,3 +1,18 @@
-.Definition h3 {
+.Definition h2 {
   color: #f8b195;
+  font-size: 32px;
+}
+
+.Definition .definitionSect {
+  margin-bottom: 30px;
+  margin-top: 0;
+  margin-left: 10px;
+}
+
+.Definition p {
+  margin-bottom: 0;
+}
+
+.Definition em {
+  opacity: 0.7;
 }
