@@ -1,4 +1,6 @@
 import React from "react";
+import Data from "./Data";
+import Synonyms from "./Synonyms";
 import "./Definition.css";
 
 export default function Definition({ definition }) {
@@ -16,6 +18,7 @@ export default function Definition({ definition }) {
               <br />
               <em>{definition.example}</em>
             </p>
+            <Synonyms synonyms={definition.synonyms} />
           </div>
         );
       })}
