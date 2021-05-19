@@ -1,9 +1,15 @@
 .Footer {
-  background: hsl(0, 0%, 0%);
+  background: hsl(201, 24%, 1%);
   text-align: center;
-  margin-top: 30px;
   color: hsla(0, 0%, 100%, 0.404);
-  padding: 25px 0 30px;
+  padding: 25px 0 50px;
+  width: 1000px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0.5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  -webkit-backdrop-filter: blur(0.5px);
 }
 
 .Footer .contact {
