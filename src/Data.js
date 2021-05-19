@@ -5,7 +5,6 @@ import "./Data.css";
 
 export default function Data({ data }) {
   if ({ data }) {
-    console.log({ data });
     return (
       <div className="Data">
         <h1>{data.word}</h1>

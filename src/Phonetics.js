@@ -14,7 +14,7 @@ export default function Phonetics({ phonetic }) {
 "
         onClick={() => playSound(audio)}
       >
-        <i class="fas fa-volume-up sound-icon"></i> {phonetic.text}
+        <i className="fas fa-volume-up sound-icon"></i> {phonetic.text}
       </button>
     </div>
   );

@@ -3,7 +3,6 @@ import Synonyms from "./Synonyms";
 import "./Definition.css";
 
 export default function Definition({ definition }) {
-  console.log({ definition });
   return (
     <div className="Definition">
       <h2>{definition.partOfSpeech}</h2>
