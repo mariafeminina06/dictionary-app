@@ -24,7 +24,7 @@ export default function Footer() {
       </a>
       <br />
       <a
-        href="https://github.com/mariafeminina06/react-app"
+        href="https://github.com/mariafeminina06/dictionary-app"
         target="_blank"
         rel="noreferrer"
         className="github-link"
